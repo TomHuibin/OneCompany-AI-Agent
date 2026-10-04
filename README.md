@@ -20,7 +20,8 @@ OneCompany-AI-Agent/
 ├── README.md                     # 仓库首页（本文件）
 ├── docs/
 │   ├── OneCompany_Solution.md    # 完整方案文档 v2.1
-│   └── DEPLOYMENT.md             # 部署方案（环境/插件/代理/预算/常驻/FAQ）
+│   ├── DEPLOYMENT.md             # 部署方案（环境/插件/代理/预算/常驻/FAQ）
+│   └── CLIENT.md                 # 智能公司客户端说明（桌面窗口风格）
 └── LICENSE                       # MIT License
 ```
 
@@ -32,6 +33,7 @@ OneCompany-AI-Agent/
 4. **预算熔断机制**：Token成本管控，业务止损
 5. **任务审批流**：小额自动审批，>100美元项目强制人工审批
 6. **灾备备份、性能监控、外部告警推送**
+7. **智能公司客户端**：桌面窗口风格的管理控制台（总览/组织/任务/审批/资料库/动态 6 大视图，详见 docs/CLIENT.md）
 
 ## 快速开始
 
