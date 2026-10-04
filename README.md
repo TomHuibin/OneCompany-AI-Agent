@@ -19,7 +19,8 @@
 OneCompany-AI-Agent/
 ├── README.md                     # 仓库首页（本文件）
 ├── docs/
-│   └── OneCompany_Solution.md    # 完整方案文档 v2.1
+│   ├── OneCompany_Solution.md    # 完整方案文档 v2.1
+│   └── DEPLOYMENT.md             # 部署方案（环境/插件/代理/预算/常驻/FAQ）
 └── LICENSE                       # MIT License
 ```
 
@@ -36,7 +37,7 @@ OneCompany-AI-Agent/
 
 1. 安装 Node.js 24 + pnpm
 2. 安装 DSH：`npm install -g @deepseek-ai/dsh@latest`
-3. 创建独立 Profile 并安装所有插件（详见 docs/OneCompany_Solution.md）
+3. 创建独立 Profile 并安装所有插件（详见 docs/OneCompany_Solution.md；部署操作见 docs/DEPLOYMENT.md）
 4. 配置环境变量 DeepSeek API Key
 5. 配置代理池与预算 YAML
 6. PM2 常驻启动 DSH Web UI
